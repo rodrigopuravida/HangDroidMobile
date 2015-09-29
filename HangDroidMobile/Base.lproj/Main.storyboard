@@ -25,6 +25,13 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4o-Lp-bO0">
                                 <rect key="frame" x="28" y="156" width="65" height="30"/>
                                 <state key="normal" title="Get Word"/>
+                                <connections>
+                                    <action selector="getWord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n9t-BU-Qp1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A8-Nk-0Fb">
+                                <rect key="frame" x="28" y="194" width="92" height="30"/>
+                                <state key="normal" title="Check Letter"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaI-aK-V5R">
                                 <rect key="frame" x="28" y="232" width="51" height="30"/>
@@ -34,9 +41,6 @@
                                 <rect key="frame" x="245" y="73" width="71" height="30"/>
                                 <state key="normal" title="Play Again"/>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="eZl-QC-Phl">
-                                <rect key="frame" x="26" y="110" width="118" height="31"/>
-                            </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HangDroid Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Boh-jg-f6V">
                                 <rect key="frame" x="20" y="73" width="127" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -97,10 +101,9 @@
                                 <rect key="frame" x="17" y="0.0" width="52" height="30"/>
                                 <state key="normal" title="How To"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A8-Nk-0Fb">
-                                <rect key="frame" x="28" y="194" width="92" height="30"/>
-                                <state key="normal" title="Check Letter"/>
-                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="eZl-QC-Phl">
+                                <rect key="frame" x="26" y="102" width="118" height="31"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
