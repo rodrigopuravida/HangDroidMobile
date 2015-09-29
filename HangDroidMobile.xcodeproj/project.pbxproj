@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48F519521BBA531A00DD8B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519511BBA531A00DD8B3D /* AppDelegate.swift */; };
+		48F519541BBA531A00DD8B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519531BBA531A00DD8B3D /* ViewController.swift */; };
+		48F519571BBA531A00DD8B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F519551BBA531A00DD8B3D /* Main.storyboard */; };
+		48F519591BBA531A00DD8B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F519581BBA531A00DD8B3D /* Assets.xcassets */; };
+		48F5195C1BBA531A00DD8B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F5195A1BBA531A00DD8B3D /* LaunchScreen.storyboard */; };
+		48F519671BBA531A00DD8B3D /* HangDroidMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519661BBA531A00DD8B3D /* HangDroidMobileTests.swift */; };
+		48F519721BBA531A00DD8B3D /* HangDroidMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519711BBA531A00DD8B3D /* HangDroidMobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48F519631BBA531A00DD8B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F519461BBA531A00DD8B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F5194D1BBA531A00DD8B3D;
+			remoteInfo = HangDroidMobile;
+		};
+		48F5196E1BBA531A00DD8B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F519461BBA531A00DD8B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F5194D1BBA531A00DD8B3D;
+			remoteInfo = HangDroidMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48F5194E1BBA531A00DD8B3D /* HangDroidMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangDroidMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F519511BBA531A00DD8B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48F519531BBA531A00DD8B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48F519561BBA531A00DD8B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48F519581BBA531A00DD8B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48F5195B1BBA531A00DD8B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48F5195D1BBA531A00DD8B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F519621BBA531A00DD8B3D /* HangDroidMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangDroidMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F519661BBA531A00DD8B3D /* HangDroidMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangDroidMobileTests.swift; sourceTree = "<group>"; };
+		48F519681BBA531A00DD8B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F5196D1BBA531A00DD8B3D /* HangDroidMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangDroidMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F519711BBA531A00DD8B3D /* HangDroidMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangDroidMobileUITests.swift; sourceTree = "<group>"; };
+		48F519731BBA531A00DD8B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F5194B1BBA531A00DD8B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F5195F1BBA531A00DD8B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F5196A1BBA531A00DD8B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F519451BBA531A00DD8B3D = {
+			isa = PBXGroup;
+			children = (
+				48F519501BBA531A00DD8B3D /* HangDroidMobile */,
+				48F519651BBA531A00DD8B3D /* HangDroidMobileTests */,
+				48F519701BBA531A00DD8B3D /* HangDroidMobileUITests */,
+				48F5194F1BBA531A00DD8B3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48F5194F1BBA531A00DD8B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F5194E1BBA531A00DD8B3D /* HangDroidMobile.app */,
+				48F519621BBA531A00DD8B3D /* HangDroidMobileTests.xctest */,
+				48F5196D1BBA531A00DD8B3D /* HangDroidMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F519501BBA531A00DD8B3D /* HangDroidMobile */ = {
+			isa = PBXGroup;
+			children = (
+				48F519511BBA531A00DD8B3D /* AppDelegate.swift */,
+				48F519531BBA531A00DD8B3D /* ViewController.swift */,
+				48F519551BBA531A00DD8B3D /* Main.storyboard */,
+				48F519581BBA531A00DD8B3D /* Assets.xcassets */,
+				48F5195A1BBA531A00DD8B3D /* LaunchScreen.storyboard */,
+				48F5195D1BBA531A00DD8B3D /* Info.plist */,
+			);
+			path = HangDroidMobile;
+			sourceTree = "<group>";
+		};
+		48F519651BBA531A00DD8B3D /* HangDroidMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				48F519661BBA531A00DD8B3D /* HangDroidMobileTests.swift */,
+				48F519681BBA531A00DD8B3D /* Info.plist */,
+			);
+			path = HangDroidMobileTests;
+			sourceTree = "<group>";
+		};
+		48F519701BBA531A00DD8B3D /* HangDroidMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48F519711BBA531A00DD8B3D /* HangDroidMobileUITests.swift */,
+				48F519731BBA531A00DD8B3D /* Info.plist */,
+			);
+			path = HangDroidMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F5194D1BBA531A00DD8B3D /* HangDroidMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F519761BBA531A00DD8B3D /* Build configuration list for PBXNativeTarget "HangDroidMobile" */;
+			buildPhases = (
+				48F5194A1BBA531A00DD8B3D /* Sources */,
+				48F5194B1BBA531A00DD8B3D /* Frameworks */,
+				48F5194C1BBA531A00DD8B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HangDroidMobile;
+			productName = HangDroidMobile;
+			productReference = 48F5194E1BBA531A00DD8B3D /* HangDroidMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48F519611BBA531A00DD8B3D /* HangDroidMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F519791BBA531A00DD8B3D /* Build configuration list for PBXNativeTarget "HangDroidMobileTests" */;
+			buildPhases = (
+				48F5195E1BBA531A00DD8B3D /* Sources */,
+				48F5195F1BBA531A00DD8B3D /* Frameworks */,
+				48F519601BBA531A00DD8B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F519641BBA531A00DD8B3D /* PBXTargetDependency */,
+			);
+			name = HangDroidMobileTests;
+			productName = HangDroidMobileTests;
+			productReference = 48F519621BBA531A00DD8B3D /* HangDroidMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48F5196C1BBA531A00DD8B3D /* HangDroidMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F5197C1BBA531A00DD8B3D /* Build configuration list for PBXNativeTarget "HangDroidMobileUITests" */;
+			buildPhases = (
+				48F519691BBA531A00DD8B3D /* Sources */,
+				48F5196A1BBA531A00DD8B3D /* Frameworks */,
+				48F5196B1BBA531A00DD8B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F5196F1BBA531A00DD8B3D /* PBXTargetDependency */,
+			);
+			name = HangDroidMobileUITests;
+			productName = HangDroidMobileUITests;
+			productReference = 48F5196D1BBA531A00DD8B3D /* HangDroidMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F519461BBA531A00DD8B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rodrigo Carballo";
+				TargetAttributes = {
+					48F5194D1BBA531A00DD8B3D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					48F519611BBA531A00DD8B3D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 48F5194D1BBA531A00DD8B3D;
+					};
+					48F5196C1BBA531A00DD8B3D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 48F5194D1BBA531A00DD8B3D;
+					};
+				};
+			};
+			buildConfigurationList = 48F519491BBA531A00DD8B3D /* Build configuration list for PBXProject "HangDroidMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48F519451BBA531A00DD8B3D;
+			productRefGroup = 48F5194F1BBA531A00DD8B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F5194D1BBA531A00DD8B3D /* HangDroidMobile */,
+				48F519611BBA531A00DD8B3D /* HangDroidMobileTests */,
+				48F5196C1BBA531A00DD8B3D /* HangDroidMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F5194C1BBA531A00DD8B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F5195C1BBA531A00DD8B3D /* LaunchScreen.storyboard in Resources */,
+				48F519591BBA531A00DD8B3D /* Assets.xcassets in Resources */,
+				48F519571BBA531A00DD8B3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F519601BBA531A00DD8B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F5196B1BBA531A00DD8B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F5194A1BBA531A00DD8B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F519541BBA531A00DD8B3D /* ViewController.swift in Sources */,
+				48F519521BBA531A00DD8B3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F5195E1BBA531A00DD8B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F519671BBA531A00DD8B3D /* HangDroidMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F519691BBA531A00DD8B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F519721BBA531A00DD8B3D /* HangDroidMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48F519641BBA531A00DD8B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F5194D1BBA531A00DD8B3D /* HangDroidMobile */;
+			targetProxy = 48F519631BBA531A00DD8B3D /* PBXContainerItemProxy */;
+		};
+		48F5196F1BBA531A00DD8B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F5194D1BBA531A00DD8B3D /* HangDroidMobile */;
+			targetProxy = 48F5196E1BBA531A00DD8B3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48F519551BBA531A00DD8B3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F519561BBA531A00DD8B3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48F5195A1BBA531A00DD8B3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48F5195B1BBA531A00DD8B3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48F519741BBA531A00DD8B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48F519751BBA531A00DD8B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F519771BBA531A00DD8B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HangDroidMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigocarballo.HangDroidMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48F519781BBA531A00DD8B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HangDroidMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigocarballo.HangDroidMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48F5197A1BBA531A00DD8B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HangDroidMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigocarballo.HangDroidMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HangDroidMobile.app/HangDroidMobile";
+			};
+			name = Debug;
+		};
+		48F5197B1BBA531A00DD8B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HangDroidMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigocarballo.HangDroidMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HangDroidMobile.app/HangDroidMobile";
+			};
+			name = Release;
+		};
+		48F5197D1BBA531A00DD8B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HangDroidMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigocarballo.HangDroidMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HangDroidMobile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		48F5197E1BBA531A00DD8B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HangDroidMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigocarballo.HangDroidMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HangDroidMobile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F519491BBA531A00DD8B3D /* Build configuration list for PBXProject "HangDroidMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F519741BBA531A00DD8B3D /* Debug */,
+				48F519751BBA531A00DD8B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F519761BBA531A00DD8B3D /* Build configuration list for PBXNativeTarget "HangDroidMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F519771BBA531A00DD8B3D /* Debug */,
+				48F519781BBA531A00DD8B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48F519791BBA531A00DD8B3D /* Build configuration list for PBXNativeTarget "HangDroidMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F5197A1BBA531A00DD8B3D /* Debug */,
+				48F5197B1BBA531A00DD8B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48F5197C1BBA531A00DD8B3D /* Build configuration list for PBXNativeTarget "HangDroidMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F5197D1BBA531A00DD8B3D /* Debug */,
+				48F5197E1BBA531A00DD8B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F519461BBA531A00DD8B3D /* Project object */;
+}
