@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var winConditionTxt: UITextField!
+    @IBOutlet weak var getWordTxt: UITextField!
+    @IBOutlet weak var checkLetterTxt: UITextField!
+    @IBOutlet weak var getTipTxt: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
