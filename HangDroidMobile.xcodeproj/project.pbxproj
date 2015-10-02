@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4865AB161BBF4B1F0058DC03 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865AB151BBF4B1F0058DC03 /* Word.swift */; settings = {ASSET_TAGS = (); }; };
+		4865AB181BBF4EA60058DC03 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865AB171BBF4EA60058DC03 /* Result.swift */; settings = {ASSET_TAGS = (); }; };
 		48F519521BBA531A00DD8B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519511BBA531A00DD8B3D /* AppDelegate.swift */; };
 		48F519541BBA531A00DD8B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519531BBA531A00DD8B3D /* ViewController.swift */; };
 		48F519571BBA531A00DD8B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F519551BBA531A00DD8B3D /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4865AB151BBF4B1F0058DC03 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		4865AB171BBF4EA60058DC03 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		48F5194E1BBA531A00DD8B3D /* HangDroidMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangDroidMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F519511BBA531A00DD8B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F519531BBA531A00DD8B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				48F519581BBA531A00DD8B3D /* Assets.xcassets */,
 				48F5195A1BBA531A00DD8B3D /* LaunchScreen.storyboard */,
 				48F5195D1BBA531A00DD8B3D /* Info.plist */,
+				4865AB151BBF4B1F0058DC03 /* Word.swift */,
+				4865AB171BBF4EA60058DC03 /* Result.swift */,
 			);
 			path = HangDroidMobile;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			files = (
 				48F519541BBA531A00DD8B3D /* ViewController.swift in Sources */,
 				48F519521BBA531A00DD8B3D /* AppDelegate.swift in Sources */,
+				4865AB181BBF4EA60058DC03 /* Result.swift in Sources */,
+				4865AB161BBF4B1F0058DC03 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +491,7 @@
 				48F519781BBA531A00DD8B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48F519791BBA531A00DD8B3D /* Build configuration list for PBXNativeTarget "HangDroidMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				48F5197B1BBA531A00DD8B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48F5197C1BBA531A00DD8B3D /* Build configuration list for PBXNativeTarget "HangDroidMobileUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				48F5197E1BBA531A00DD8B3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
