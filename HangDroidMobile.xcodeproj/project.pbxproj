@@ -49,6 +49,7 @@
 		48E86BD21BCEC1DA00CB3633 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E86BB71BCEC1DA00CB3633 /* x.png */; settings = {ASSET_TAGS = (); }; };
 		48E86BD31BCEC1DA00CB3633 /* y.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E86BB81BCEC1DA00CB3633 /* y.png */; settings = {ASSET_TAGS = (); }; };
 		48E86BD41BCEC1DA00CB3633 /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E86BB91BCEC1DA00CB3633 /* z.png */; settings = {ASSET_TAGS = (); }; };
+		48E86BD61BCEC5CA00CB3633 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E86BD51BCEC5CA00CB3633 /* DataManager.swift */; settings = {ASSET_TAGS = (); }; };
 		48F519521BBA531A00DD8B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519511BBA531A00DD8B3D /* AppDelegate.swift */; };
 		48F519541BBA531A00DD8B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519531BBA531A00DD8B3D /* ViewController.swift */; };
 		48F519571BBA531A00DD8B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F519551BBA531A00DD8B3D /* Main.storyboard */; };
@@ -118,6 +119,7 @@
 		48E86BB71BCEC1DA00CB3633 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
 		48E86BB81BCEC1DA00CB3633 /* y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = y.png; sourceTree = "<group>"; };
 		48E86BB91BCEC1DA00CB3633 /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z.png; sourceTree = "<group>"; };
+		48E86BD51BCEC5CA00CB3633 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = ../DataManager.swift; sourceTree = "<group>"; };
 		48F5194E1BBA531A00DD8B3D /* HangDroidMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangDroidMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F519511BBA531A00DD8B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F519531BBA531A00DD8B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			children = (
 				48E86B851BCEC0E600CB3633 /* Images */,
 				48F519511BBA531A00DD8B3D /* AppDelegate.swift */,
+				48E86BD51BCEC5CA00CB3633 /* DataManager.swift */,
 				48F519531BBA531A00DD8B3D /* ViewController.swift */,
 				48F519551BBA531A00DD8B3D /* Main.storyboard */,
 				48F519581BBA531A00DD8B3D /* Assets.xcassets */,
@@ -437,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F519541BBA531A00DD8B3D /* ViewController.swift in Sources */,
+				48E86BD61BCEC5CA00CB3633 /* DataManager.swift in Sources */,
 				48F519521BBA531A00DD8B3D /* AppDelegate.swift in Sources */,
 				4865AB181BBF4EA60058DC03 /* Result.swift in Sources */,
 				4865AB161BBF4B1F0058DC03 /* Word.swift in Sources */,
