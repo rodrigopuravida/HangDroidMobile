@@ -7,7 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/HangDroidMobile/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HangDroidMobile/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HangDroidMobile/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HangDroidMobile/JSONHelper.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HangDroidMobile/Result.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HangDroidMobile/ViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/HangDroidMobile/Word.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HangDroidMobileTests/HangDroidMobileTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HangDroidMobileTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HangDroidMobileUITests/HangDroidMobileUITests.swift" isTestSource="false" />
