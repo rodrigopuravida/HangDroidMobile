@@ -48,17 +48,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
             //do this on main queue otherwise we are hosed with a crash
             dispatch_async(dispatch_get_main_queue()) {
                 self.getWordTxt.text = appTitle.string
-                print(appTitle.string)
+                //print(appTitle.string)
             }
         }
         
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        print("I entered my letter")
+        
+        checkGuessedLetter()
+        
+         print("I entered my letter")
+        
         return true
     }
     
+    //this restricts the amount of letters that user can input while guessing
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         let length = (checkLetterTxt.text?.characters.count)! + string.characters.count
         
@@ -68,6 +73,18 @@ class ViewController: UIViewController, UITextFieldDelegate {
         else {
             return true
         }
+        
+    }
+    
+    func checkGuessedLetter() -> Bool {
+        
+       
+        print("letter to be guessed is")
+        print(self.getWordTxt.text)
+        
+        //need to do validation here to see if letter is in world
+        
+        return true
         
     }
     
