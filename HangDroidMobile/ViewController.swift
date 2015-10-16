@@ -16,6 +16,38 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var checkLetterTxt: UITextField!
     @IBOutlet weak var getTipTxt: UITextField!
     
+    //set of lettesrs go here
+    
+    @IBOutlet weak var txt1: UITextField!
+    
+    @IBOutlet weak var txt2: UITextField!
+    
+    @IBOutlet weak var txt3: UITextField!
+    
+    @IBOutlet weak var txt4: UITextField!
+    
+    @IBOutlet weak var txt5: UITextField!
+    
+    @IBOutlet weak var txt6: UITextField!
+    
+    @IBOutlet weak var txt7: UITextField!
+    
+    @IBOutlet weak var txt8: UITextField!
+    
+    @IBOutlet weak var txt9: UITextField!
+    
+    @IBOutlet weak var txt10: UITextField!
+    
+    @IBOutlet weak var txt11: UITextField!
+    
+    @IBOutlet weak var txt12: UITextField!
+    
+    @IBOutlet weak var txt13: UITextField!
+    
+    @IBOutlet weak var txt14: UITextField!
+    
+    
+    
     
     var tableData=[String]()
 

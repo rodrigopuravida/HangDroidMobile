@@ -112,6 +112,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oZd-hI-3Ft">
+                                <rect key="frame" x="194" y="629" width="25" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iUL-Iq-HH2">
                                 <rect key="frame" x="169" y="629" width="25" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -138,12 +143,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="acg-ng-xdN">
-                                <rect key="frame" x="12" y="629" width="25" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oZd-hI-3Ft">
-                                <rect key="frame" x="194" y="629" width="25" height="30"/>
+                                <rect key="frame" x="13" y="629" width="25" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -156,6 +156,20 @@
                         <outlet property="checkLetterTxt" destination="cpj-2J-DtL" id="vv9-hY-r9I"/>
                         <outlet property="getTipTxt" destination="5dY-nW-dE9" id="svx-cc-UuJ"/>
                         <outlet property="getWordTxt" destination="xwe-iw-obC" id="1vZ-Q8-aAj"/>
+                        <outlet property="txt1" destination="acg-ng-xdN" id="TiA-M1-jjM"/>
+                        <outlet property="txt10" destination="194-FM-FYs" id="fno-54-SIL"/>
+                        <outlet property="txt11" destination="POA-zA-cc5" id="VmM-Cp-3gp"/>
+                        <outlet property="txt12" destination="x8S-Y6-peD" id="4cV-1G-Qg4"/>
+                        <outlet property="txt13" destination="9m8-JY-gH6" id="kkg-cy-VSW"/>
+                        <outlet property="txt14" destination="oIc-Nx-igL" id="mL8-kW-bnn"/>
+                        <outlet property="txt2" destination="UTC-ZG-f4o" id="MiF-RK-rZg"/>
+                        <outlet property="txt3" destination="jua-P2-sok" id="tA7-Uv-sbI"/>
+                        <outlet property="txt4" destination="lbh-gF-agg" id="AlB-ek-yrg"/>
+                        <outlet property="txt5" destination="aoI-aL-Rel" id="jNH-xz-9br"/>
+                        <outlet property="txt6" destination="Y8g-aB-LQA" id="dwh-Fi-NOg"/>
+                        <outlet property="txt7" destination="iUL-Iq-HH2" id="O2x-0n-Nfy"/>
+                        <outlet property="txt8" destination="oZd-hI-3Ft" id="dP6-rz-Hva"/>
+                        <outlet property="txt9" destination="7D8-MK-S8T" id="1VD-6k-bD8"/>
                         <outlet property="winConditionTxt" destination="EZY-2E-4ME" id="lgF-5P-nK2"/>
                     </connections>
                 </viewController>
