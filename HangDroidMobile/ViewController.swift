@@ -84,6 +84,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         //need to do validation here to see if letter is in world
         
+        var wordLength = self.getWordTxt.text?.characters.count
+        
+        for i in (self.getWordTxt.text?.characters)! {
+            print(i)
+        }
+        
+        
+        
+        
+        
         return true
         
     }
