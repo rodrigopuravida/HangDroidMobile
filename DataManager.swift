@@ -13,7 +13,7 @@ let wordNikUrl = "http://api.wordnik.com:80/v4/words.json/randomWord?hasDictiona
 
 class DataManager {
     
-    class func getDataFromMockySiteWithSuccess(success: ((worddata: NSData!) -> Void)) {
+    class func getDataFromWordNikSiteWithSuccess(success: ((worddata: NSData!) -> Void)) {
         //1
         loadDataFromURL(NSURL(string: wordNikUrl)!, completion:{(data, error) -> Void in
             //2

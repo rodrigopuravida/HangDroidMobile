@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4865AB161BBF4B1F0058DC03 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865AB151BBF4B1F0058DC03 /* Word.swift */; settings = {ASSET_TAGS = (); }; };
-		4865AB181BBF4EA60058DC03 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865AB171BBF4EA60058DC03 /* Result.swift */; settings = {ASSET_TAGS = (); }; };
-		4865AB1A1BBF4FE90058DC03 /* JSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4865AB191BBF4FE90058DC03 /* JSONHelper.swift */; settings = {ASSET_TAGS = (); }; };
 		48E86B921BCEC1BB00CB3633 /* Alphabet.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E86B861BCEC1BB00CB3633 /* Alphabet.png */; settings = {ASSET_TAGS = (); }; };
 		48E86B931BCEC1BB00CB3633 /* droidL0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48E86B871BCEC1BB00CB3633 /* droidL0.jpg */; settings = {ASSET_TAGS = (); }; };
 		48E86B941BCEC1BB00CB3633 /* droidL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48E86B881BCEC1BB00CB3633 /* droidL1.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -51,6 +48,7 @@
 		48E86BD41BCEC1DA00CB3633 /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E86BB91BCEC1DA00CB3633 /* z.png */; settings = {ASSET_TAGS = (); }; };
 		48E86BD61BCEC5CA00CB3633 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E86BD51BCEC5CA00CB3633 /* DataManager.swift */; settings = {ASSET_TAGS = (); }; };
 		48E86BD81BCEC9B500CB3633 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E86BD71BCEC9B500CB3633 /* AppModel.swift */; settings = {ASSET_TAGS = (); }; };
+		48E86BDE1BCED09000CB3633 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E86BDD1BCED09000CB3633 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
 		48F519521BBA531A00DD8B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519511BBA531A00DD8B3D /* AppDelegate.swift */; };
 		48F519541BBA531A00DD8B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F519531BBA531A00DD8B3D /* ViewController.swift */; };
 		48F519571BBA531A00DD8B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F519551BBA531A00DD8B3D /* Main.storyboard */; };
@@ -78,9 +76,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4865AB151BBF4B1F0058DC03 /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
-		4865AB171BBF4EA60058DC03 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		4865AB191BBF4FE90058DC03 /* JSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONHelper.swift; sourceTree = "<group>"; };
 		48E86B861BCEC1BB00CB3633 /* Alphabet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alphabet.png; sourceTree = "<group>"; };
 		48E86B871BCEC1BB00CB3633 /* droidL0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droidL0.jpg; sourceTree = "<group>"; };
 		48E86B881BCEC1BB00CB3633 /* droidL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = droidL1.jpg; sourceTree = "<group>"; };
@@ -122,6 +117,7 @@
 		48E86BB91BCEC1DA00CB3633 /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z.png; sourceTree = "<group>"; };
 		48E86BD51BCEC5CA00CB3633 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = ../DataManager.swift; sourceTree = "<group>"; };
 		48E86BD71BCEC9B500CB3633 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		48E86BDD1BCED09000CB3633 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		48F5194E1BBA531A00DD8B3D /* HangDroidMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangDroidMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F519511BBA531A00DD8B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48F519531BBA531A00DD8B3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -241,6 +237,7 @@
 			children = (
 				48E86B851BCEC0E600CB3633 /* Images */,
 				48F519511BBA531A00DD8B3D /* AppDelegate.swift */,
+				48E86BDD1BCED09000CB3633 /* SwiftyJSON.swift */,
 				48E86BD51BCEC5CA00CB3633 /* DataManager.swift */,
 				48E86BD71BCEC9B500CB3633 /* AppModel.swift */,
 				48F519531BBA531A00DD8B3D /* ViewController.swift */,
@@ -248,9 +245,6 @@
 				48F519581BBA531A00DD8B3D /* Assets.xcassets */,
 				48F5195A1BBA531A00DD8B3D /* LaunchScreen.storyboard */,
 				48F5195D1BBA531A00DD8B3D /* Info.plist */,
-				4865AB151BBF4B1F0058DC03 /* Word.swift */,
-				4865AB171BBF4EA60058DC03 /* Result.swift */,
-				4865AB191BBF4FE90058DC03 /* JSONHelper.swift */,
 			);
 			path = HangDroidMobile;
 			sourceTree = "<group>";
@@ -445,10 +439,8 @@
 				48E86BD81BCEC9B500CB3633 /* AppModel.swift in Sources */,
 				48F519541BBA531A00DD8B3D /* ViewController.swift in Sources */,
 				48E86BD61BCEC5CA00CB3633 /* DataManager.swift in Sources */,
+				48E86BDE1BCED09000CB3633 /* SwiftyJSON.swift in Sources */,
 				48F519521BBA531A00DD8B3D /* AppDelegate.swift in Sources */,
-				4865AB181BBF4EA60058DC03 /* Result.swift in Sources */,
-				4865AB161BBF4B1F0058DC03 /* Word.swift in Sources */,
-				4865AB1A1BBF4FE90058DC03 /* JSONHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
