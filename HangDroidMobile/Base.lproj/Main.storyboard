@@ -32,6 +32,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A8-Nk-0Fb">
                                 <rect key="frame" x="28" y="226" width="92" height="30"/>
                                 <state key="normal" title="Check Letter"/>
+                                <connections>
+                                    <action selector="checkLetter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Gf-k7-TXW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaI-aK-V5R">
                                 <rect key="frame" x="28" y="264" width="51" height="30"/>

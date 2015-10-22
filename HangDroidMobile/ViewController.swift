@@ -47,6 +47,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var txt14: UITextField!
     
     
+    @IBAction func checkLetter(sender: AnyObject) {
+        
+        checkGuessedLetter()
+        
+        print("I clicked on check letter")
+    }
     
     
     var tableData=[String]()
@@ -95,6 +101,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
     
+    
+    
     //this restricts the amount of letters that user can input while guessing
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         let length = (checkLetterTxt.text?.characters.count)! + string.characters.count
@@ -114,11 +122,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
         print("letter to be guessed is")
         print(self.getWordTxt.text)
         
+        print("letter entered is")
+        print(checkLetterTxt.text)
+        
+        
         //need to do validation here to see if letter is in world
         
         var wordLength = self.getWordTxt.text?.characters.count
         
         for i in (self.getWordTxt.text?.characters)! {
+            
+            
             print(i)
         }
         
