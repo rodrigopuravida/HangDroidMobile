@@ -159,6 +159,7 @@
                         <outlet property="checkLetterTxt" destination="cpj-2J-DtL" id="vv9-hY-r9I"/>
                         <outlet property="getTipTxt" destination="5dY-nW-dE9" id="svx-cc-UuJ"/>
                         <outlet property="getWordTxt" destination="xwe-iw-obC" id="1vZ-Q8-aAj"/>
+                        <outlet property="hangImage" destination="WHb-4K-u3A" id="kfg-as-Qcw"/>
                         <outlet property="txt1" destination="acg-ng-xdN" id="TiA-M1-jjM"/>
                         <outlet property="txt10" destination="194-FM-FYs" id="fno-54-SIL"/>
                         <outlet property="txt11" destination="POA-zA-cc5" id="VmM-Cp-3gp"/>

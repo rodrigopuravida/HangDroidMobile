@@ -19,6 +19,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var checkLetterTxt: UITextField!
     @IBOutlet weak var getTipTxt: UITextField!
     
+    @IBOutlet weak var hangImage: UIImageView!
+    
     //set of lettesrs go here
     
     @IBOutlet weak var txt1: UITextField!
@@ -93,6 +95,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
         }
         
+        //setting the image to blank
+        hangImage.image = UIImage(named: "droidLBlank.jpg")
+        
+        
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -132,7 +138,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //need to do validation here to see if letter is in world
         
         var wordLength = self.getWordTxt.text?.characters.count
-        print("the number of letter in word is")
+        print("the number of letters in word is")
         print(wordLength)
         
 //        for i in (self.getWordTxt.text?.characters)! {
