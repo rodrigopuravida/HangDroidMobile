@@ -141,6 +141,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         print("the number of letters in word is")
         print(wordLength)
         
+        //in this next following section we need to figure out if letter guessed exists in the word generate 
+        // if so then show th eletter in bottom array where letters are displayed
+        // if not then a new image appears as one hangs
+        
+        
+        
 //        for i in (self.getWordTxt.text?.characters)! {
 //            
 //            
