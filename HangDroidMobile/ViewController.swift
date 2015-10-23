@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
+    //variables
+    
+    
     
     @IBOutlet weak var winConditionTxt: UITextField!
     @IBOutlet weak var getWordTxt: UITextField!
@@ -129,12 +132,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //need to do validation here to see if letter is in world
         
         var wordLength = self.getWordTxt.text?.characters.count
+        print("the number of letter in word is")
+        print(wordLength)
         
-        for i in (self.getWordTxt.text?.characters)! {
-            
-            
-            print(i)
-        }
+//        for i in (self.getWordTxt.text?.characters)! {
+//            
+//            
+//            print(i)
+//        }
         
         
         
