@@ -161,7 +161,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             if self.getWordTxt.text!.rangeOfString(checkLetterTxt.text!) != nil {
                 print("Exists!")
                 for i in (self.getWordTxt.text?.characters)! {
-                    
+                    //comment for source testing
                 }
 
             }
