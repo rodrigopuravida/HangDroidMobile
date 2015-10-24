@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
-    //variables
+
     
     
     
@@ -59,11 +59,21 @@ class ViewController: UIViewController, UITextFieldDelegate {
         print("I clicked on check letter")
     }
     
-    
+    //variables *****************************
     var tableData=[String]()
+    var numberCorrectGuesses = 0
+    
+    
+    
+    
+    
+    // **************************************
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let numberLettersInWord : UInt
+
         
         checkLetterTxt.delegate = self
         
@@ -137,9 +147,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         //need to do validation here to see if letter is in world
         
-        var wordLength = self.getWordTxt.text?.characters.count
+        var numberLettersInWord = self.getWordTxt.text?.characters.count
         print("the number of letters in word is")
-        print(wordLength)
+        print(numberLettersInWord)
         
         //in this next following section we need to figure out if letter guessed exists in the word generate 
         // if so then show th eletter in bottom array where letters are displayed
@@ -147,11 +157,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         
         
-//        for i in (self.getWordTxt.text?.characters)! {
-//            
-//            
-//            print(i)
-//        }
+            
+            if self.getWordTxt.text!.rangeOfString(checkLetterTxt.text!) != nil {
+                print("Exists!")
+                for i in (self.getWordTxt.text?.characters)! {
+                    
+                }
+
+            }
+        
         
         
         
