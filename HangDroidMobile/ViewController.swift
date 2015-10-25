@@ -62,6 +62,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     //variables *****************************
     var tableData=[String]()
+    var letterArray = [UITextField]()
     var numberCorrectGuesses = 0
     var numberMissedGuesses = 0
     var initialImage = "droidL0.jpg"
@@ -81,6 +82,22 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         // Do any additional setup after loading the view, typically from a nib.
          self.view.backgroundColor = UIColor(patternImage: UIImage(named: "wildwest.jpg")!)
+        
+        //we add all the text fields to array here
+        letterArray.append(txt1)
+        letterArray.append(txt2)
+        letterArray.append(txt3)
+        letterArray.append(txt4)
+        letterArray.append(txt5)
+        letterArray.append(txt6)
+        letterArray.append(txt7)
+        letterArray.append(txt8)
+        letterArray.append(txt9)
+        letterArray.append(txt10)
+        letterArray.append(txt11)
+        letterArray.append(txt12)
+        letterArray.append(txt13)
+        letterArray.append(txt14)
     }
 
     override func didReceiveMemoryWarning() {
@@ -162,42 +179,59 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // if so then show th eletter in bottom array where letters are displayed
         // if not then a new image appears as one hangs
         
+        //this is the array of characters that used to form the word to be guessed
+        var characters = Array(self.getWordTxt.text!.characters)
         
         
-            
-            if self.getWordTxt.text!.rangeOfString(checkLetterTxt.text!) != nil {
-                print("Exists!")
-                for i in (self.getWordTxt.text?.characters)! {
-                    if i == checkLetterTxt.text![index] {
-                        numberCorrectGuesses++;
-                        print(numberCorrectGuesses)
-                        
-                        
-                        if numberCorrectGuesses == self.getWordTxt.text!.characters.count {
-                            resultsText.text = "YOU HAVE WON"
-                        }
-                    }
+        for var counter = 0; counter < self.getWordTxt.text!.characters.count; counter++ {
+            if checkLetterTxt.text![index] == characters[counter] {
+                numberCorrectGuesses++;
+                letterArray[counter].text = checkLetterTxt.text!;
+                
+                //checking to see if yuo have won
+                if numberCorrectGuesses == self.getWordTxt.text!.characters.count {
+                    resultsText.text = "YOU HAVE WON"
                 }
-
-            } else {
+           }
+            
+            else {
                 
                 hangImage.image = UIImage(named: "droidL" + String(numberMissedGuesses) + ".jpg");
                 numberMissedGuesses++;
                 
+            }
+
+            
         }
         
-//        if contains(self.getWordTxt.text!.lowercaseString, checkLetterTxt.text![index]) {
-//            print("word contains \(checkLetterTxt.text!)")
+        
+        
+            
+//            if self.getWordTxt.text!.rangeOfString(checkLetterTxt.text!) != nil {
+//                print("Exists!");
+//                
+//                var counter = 0;
+//                for i in (self.getWordTxt.text?.characters)! {
+//                    if i == checkLetterTxt.text![index] {
+//                        numberCorrectGuesses++;
+//                        letterArray[counter].text = checkLetterTxt.text!;
+//                        print(numberCorrectGuesses)
+//                        
+//                        
+//                        //checking to see if yuo have won
+//                        if numberCorrectGuesses == self.getWordTxt.text!.characters.count {
+//                            resultsText.text = "YOU HAVE WON"
+//                        }
+//                    counter++;
+//                    }
+//                }
+//
+//            } else {
+//                
+//                hangImage.image = UIImage(named: "droidL" + String(numberMissedGuesses) + ".jpg");
+//                numberMissedGuesses++;
+//                
 //        }
-//        
-//        if let index = find(word.lowercaseString, searchCharacter) {
-//            print("Index: \(index)")
-//        }
-//        
-        
-        
-        
-        
         
         return true
         
