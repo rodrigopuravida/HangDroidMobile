@@ -20,6 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var getTipTxt: UITextField!
     
     @IBOutlet weak var hangImage: UIImageView!
+    @IBOutlet weak var resultsText: UITextField!
     
     //set of lettesrs go here
     
@@ -74,7 +75,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         let numberLettersInWord : UInt
 
-        
         checkLetterTxt.delegate = self
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -138,11 +138,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func checkGuessedLetter() -> Bool {
         
        
-        print("letter to be guessed is")
-        print(self.getWordTxt.text)
+//        print("word to be guessed is")
+//        print(self.getWordTxt.text)
+//        
+//        print("letter entered is")
+//        print(checkLetterTxt.text)
         
-        print("letter entered is")
-        print(checkLetterTxt.text)
+        let index = checkLetterTxt.text!.startIndex.advancedBy(0)
+        checkLetterTxt.text![index]
+//        print("this is the letter to be checked after gettign index")
+//        print(checkLetterTxt.text![index])
         
         
         //need to do validation here to see if letter is in world
@@ -161,11 +166,29 @@ class ViewController: UIViewController, UITextFieldDelegate {
             if self.getWordTxt.text!.rangeOfString(checkLetterTxt.text!) != nil {
                 print("Exists!")
                 for i in (self.getWordTxt.text?.characters)! {
-                    //comment for source testing
+                    if i == checkLetterTxt.text![index] {
+                        numberCorrectGuesses++;
+                        print(numberCorrectGuesses)
+                        
+                        
+                        if numberCorrectGuesses == self.getWordTxt.text!.characters.count {
+                            resultsText.text = "YOU HAVE WON"
+                            
+                        }
+                        
+                    }
                 }
 
             }
         
+//        if contains(self.getWordTxt.text!.lowercaseString, checkLetterTxt.text![index]) {
+//            print("word contains \(checkLetterTxt.text!)")
+//        }
+//        
+//        if let index = find(word.lowercaseString, searchCharacter) {
+//            print("Index: \(index)")
+//        }
+//        
         
         
         
