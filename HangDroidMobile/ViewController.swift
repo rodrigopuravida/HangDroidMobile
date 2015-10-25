@@ -193,16 +193,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     resultsText.text = "YOU HAVE WON"
                 }
            }
-            
-            else {
-                
-                hangImage.image = UIImage(named: "droidL" + String(numberMissedGuesses) + ".jpg");
-                numberMissedGuesses++;
-                
-            }
-
-            
-        }
+//            hangImage.image = UIImage(named: "droidL" + String(numberMissedGuesses) + ".jpg");
+//            numberMissedGuesses++;
+       }
         
         
         
