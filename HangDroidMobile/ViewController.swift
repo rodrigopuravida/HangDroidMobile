@@ -63,6 +63,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     //variables *****************************
     var tableData=[String]()
     var numberCorrectGuesses = 0
+    var numberMissedGuesses = 0
+    var initialImage = "droidL0.jpg"
     
     
     
@@ -173,13 +175,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
                         
                         if numberCorrectGuesses == self.getWordTxt.text!.characters.count {
                             resultsText.text = "YOU HAVE WON"
-                            
                         }
-                        
                     }
                 }
 
-            }
+            } else {
+                
+                hangImage.image = UIImage(named: "droidL" + String(numberMissedGuesses) + ".jpg");
+                numberMissedGuesses++;
+                
+        }
         
 //        if contains(self.getWordTxt.text!.lowercaseString, checkLetterTxt.text![index]) {
 //            print("word contains \(checkLetterTxt.text!)")
