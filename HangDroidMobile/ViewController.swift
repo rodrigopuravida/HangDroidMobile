@@ -203,34 +203,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
         
         
-        
-            
-//            if self.getWordTxt.text!.rangeOfString(checkLetterTxt.text!) != nil {
-//                print("Exists!");
-//                
-//                var counter = 0;
-//                for i in (self.getWordTxt.text?.characters)! {
-//                    if i == checkLetterTxt.text![index] {
-//                        numberCorrectGuesses++;
-//                        letterArray[counter].text = checkLetterTxt.text!;
-//                        print(numberCorrectGuesses)
-//                        
-//                        
-//                        //checking to see if yuo have won
-//                        if numberCorrectGuesses == self.getWordTxt.text!.characters.count {
-//                            resultsText.text = "YOU HAVE WON"
-//                        }
-//                    counter++;
-//                    }
-//                }
-//
-//            } else {
-//                
-//                hangImage.image = UIImage(named: "droidL" + String(numberMissedGuesses) + ".jpg");
-//                numberMissedGuesses++;
-//                
-//        }
-        
         return true
         
     }
