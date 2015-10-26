@@ -67,10 +67,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var numberMissedGuesses = 0
     var initialImage = "droidL0.jpg"
     
-    
-    
-    
-    
     // **************************************
 
     override func viewDidLoad() {
@@ -103,6 +99,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    @IBAction func getTip(sender: AnyObject) {
     }
 
 
