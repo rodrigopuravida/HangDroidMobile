@@ -182,6 +182,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //this is the array of characters that used to form the word to be guessed
         var characters = Array(self.getWordTxt.text!.characters)
         
+        var missedGuessCounter = false;
+        
         
         for var counter = 0; counter < self.getWordTxt.text!.characters.count; counter++ {
             if checkLetterTxt.text![index] == characters[counter] {
@@ -192,10 +194,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
                 if numberCorrectGuesses == self.getWordTxt.text!.characters.count {
                     resultsText.text = "YOU HAVE WON"
                 }
+                missedGuessCounter = true;
            }
-//            hangImage.image = UIImage(named: "droidL" + String(numberMissedGuesses) + ".jpg");
-//            numberMissedGuesses++;
-       }
+        }
+        if missedGuessCounter == false {
+            hangImage.image = UIImage(named: "droidL" + String(numberMissedGuesses) + ".jpg");
+            numberMissedGuesses++;
+    }
         
         
         
