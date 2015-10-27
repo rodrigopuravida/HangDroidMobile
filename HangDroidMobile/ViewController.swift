@@ -94,6 +94,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         letterArray.append(txt12)
         letterArray.append(txt13)
         letterArray.append(txt14)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -103,6 +104,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func getTip(sender: AnyObject) {
+        //getting the tip from network call
     }
 
 
