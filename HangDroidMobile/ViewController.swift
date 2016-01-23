@@ -204,7 +204,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             numberMissedGuesses++;
     }
         
-        
+        checkLetterTxt.text = "";
         return true
         
     }
